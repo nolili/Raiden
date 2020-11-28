@@ -16,6 +16,7 @@
 		8CD2606525731282002B8B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD2606325731282002B8B1E /* LaunchScreen.storyboard */; };
 		8CD2607025731282002B8B1E /* RaidenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2606F25731282002B8B1E /* RaidenTests.swift */; };
 		8CD2607B25731282002B8B1E /* RaidenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2607A25731282002B8B1E /* RaidenUITests.swift */; };
+		8CD2608F2573145D002B8B1E /* CoreDataModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD2608E2573145D002B8B1E /* CoreDataModelHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8CD2607625731282002B8B1E /* RaidenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaidenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD2607A25731282002B8B1E /* RaidenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaidenUITests.swift; sourceTree = "<group>"; };
 		8CD2607C25731282002B8B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD2608E2573145D002B8B1E /* CoreDataModelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModelHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				8CD2606325731282002B8B1E /* LaunchScreen.storyboard */,
 				8CD2606625731282002B8B1E /* Info.plist */,
 				8CD2605E25731280002B8B1E /* Raiden.xcdatamodeld */,
+				8CD2608E2573145D002B8B1E /* CoreDataModelHelper.swift */,
 			);
 			path = Raiden;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CD2605A25731280002B8B1E /* ViewController.swift in Sources */,
+				8CD2608F2573145D002B8B1E /* CoreDataModelHelper.swift in Sources */,
 				8CD2605625731280002B8B1E /* AppDelegate.swift in Sources */,
 				8CD2606025731280002B8B1E /* Raiden.xcdatamodeld in Sources */,
 				8CD2605825731280002B8B1E /* SceneDelegate.swift in Sources */,
